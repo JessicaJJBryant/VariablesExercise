@@ -26,11 +26,14 @@ console.log(quarter, dime, nickel, penny);
 // Bonus 3
 let letters = "qwertyuiop";
 // Bonus 4
-let length = letters.length - 1;
-console.log(letters[length]);
+// let length = letters.length - 1;
+// console.log(letters[length]);
 /* OR
 console.log(letters.length); then run the node script.js to get 10 and subtract 1 for the 0. Then:
 console.log(letters[9]);    then run the node script.js to get the p
 OR
 You might be looking for an array. I looked this up online but I don't understand it yet (and got some errors when I tried it), so I guess I'll leave this alone for now. :-)
 */
+// The answer was easier than I thought. I thought I tried this and it didn't work, but I guess not because it is working now. I probably didn't have the - 1 on there.
+
+console.log(letters[letters.length - 1]);
